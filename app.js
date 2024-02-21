@@ -49,12 +49,13 @@ function alteraStatusBotao(){
     if (botaoReset.classList.contains('container__botao-desabilitado')){
         botaoReset.classList.remove('container__botao-desabilitado');
         botaoReset.classList.add('container__botao');
-      //  console.log("esta entrandoaqui? 2 ");
+      //console.log("esta entrandoaqui? 2 ");
+      // o certo é certo o errado é errado
 
     } else {
         botaoReset.classList.remove('container__botao');
         botaoReset.classList.add('container__botao-desabilitado');
-       // console.log("esta entrandoaqui? 3 ");
+       console.log("esta entrandoaqui? 3 ");
     }
 
 
